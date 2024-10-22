@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    border: 2px solid;
+    display: flex;
+    gap: 20px;
+}
+.flex-container > .flex{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5;
+}
+.child1{
+    background-color: lightblue;
+    flex-grow: 1;
+}
+.child2{
+    background-color: palevioletred;
+    flex-grow: 2;
+
+}
+.child3{
+    background-color: cornflowerblue;
+    flex-grow: 0;
+}
